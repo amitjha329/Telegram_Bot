@@ -1,0 +1,4 @@
+/help - Commands List
+/chatid - Display Chat ID of this chat.
+/sonarrStatus - Display The Status of Sonarr Server.
+/seriesList - Displar the available Series in Sonarr.
