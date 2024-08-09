@@ -19,10 +19,10 @@ bot.get_updates(fail_silently: true) do |message|
                  when /start/i
                    'Hello This is a Sonar Reporting Bot. /help for commands list.'
                  when /help/i
-                   "/help - Commands List
-/chatid - Display Chat ID of this chat.
-/sonarrStatus - Display The Status of Sonarr Server.
-/seriesList - Displar the available Series in Sonarr."
+                   '/help - Commands List
+                   /chatid - Display Chat ID of this chat.
+                   /sonarrStatus - Display The Status of Sonarr Server.
+                   /seriesList - Displar the available Series in Sonarr.'
                  when /chatid/i
                    "Chat ID: #{message.chat.id}"
                  when /sonarrStatus/i
